@@ -1,5 +1,12 @@
+import Hello from "./Hello";
+
 function App() {
-  return <h1>Hello world from create-react-app</h1>;
+  return (
+    <>
+      <Hello />
+      <span> from create-react-app.</span>
+    </>
+  );
 }
 
 export default App;
